@@ -1,0 +1,58 @@
+{
+  "name": "nodejs-project-base",
+  "version": "1.0.0",
+  "description": "Project base for NodeJS",
+  "author": "Muhammad Dadu",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/muhammaddadu/nodejs-project-base"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "coverage": "gulp coverage",
+    "docs": "gulp docs",
+    "prepublish": "gulp build",
+    "test": "gulp test"
+  },
+  "keywords": [
+    "NodeJS",
+    "babel",
+    "flow",
+    "ES6",
+    "Scaffolding"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "babel-preset-nodejs-lts": "^1.2.2",
+    "chai": "^3.5.0",
+    "codeclimate-test-reporter": "^0.3.3",
+    "coveralls": "^2.11.9",
+    "del": "^2.2.1",
+    "esdoc-es7-plugin": "^0.0.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-babel-istanbul": "^1.4.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-esdoc": "^0.2.0",
+    "gulp-eslint": "^3.0.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-inject-modules": "^1.0.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-watch": "^4.3.9",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
