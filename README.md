@@ -1,4 +1,4 @@
-# Node.js Project Base [![Code Climate](https://codeclimate.com/github/muhammaddadu/nodejs-project-base/badges/gpa.svg)](https://codeclimate.com/github/muhammaddadu/nodejs-project-base)
+# Node.js Project Base [![Code Climate](https://codeclimate.com/github/muhammaddadu/nodejs-project-base/badges/gpa.svg)](https://codeclimate.com/github/muhammaddadu/nodejs-project-base) [![Build Status](https://travis-ci.org/muhammaddadu/nodejs-project-base.svg?branch=master)](https://travis-ci.org/muhammaddadu/nodejs-project-base)
 
 This base is for creating Node.js projects with es7 and flow code. It includes basic outline for the project in addition to tests.
 > Note: This base requires Node.js 4 or newer.
@@ -21,11 +21,11 @@ npm test [--suite <file-name|glob>] [--grep <name>]
 when ```npm watch``` is running, other gulp tasks can be run within the console. e.g ```test``` will execute a test in the same session.
 
 ## Creating Your Project
-1) Clone this repository
-2) Remove files from ```/src/**/**``` and ```/test/**/*_test.js``` and create a new entry point file ```/src/index.js```
-3) Update ```package.json```, ```README.md``` with your project information
+1) Clone this repository 
+2) Remove files from ```/src/**/**``` and ```/test/**/*_test.js``` and create a new entry point file ```/src/index.js``` 
+3) Update ```package.json```, ```README.md``` with your project information 
 
-Note: Configure the settings for tools used in this project to your requirements
+Note: Configure the settings for the tools used in this project to meet your requirements
 
 ## Licence
 Copyright (c) 2016 Muhammad Dadu
