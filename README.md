@@ -1,6 +1,5 @@
-# Node.js Project Base
-[![Code Climate](https://codeclimate.com/github/muhammaddadu/nodejs-project-base/badges/gpa.svg)](https://codeclimate.com/github/muhammaddadu/nodejs-project-base)
-<a href="https://codeclimate.com/github/muhammaddadu/nodejs-project-base/coverage"><img src="https://codeclimate.com/github/muhammaddadu/nodejs-project-base/badges/coverage.svg" /></a>
+# Node.js Project Base [![Code Climate](https://codeclimate.com/github/muhammaddadu/nodejs-project-base/badges/gpa.svg)](https://codeclimate.com/github/muhammaddadu/nodejs-project-base)
+
 This base is for creating Node.js projects with es7 and flow code. It includes basic outline for the project in addition to tests.
 > Note: This base requires Node.js 4 or newer.
 
